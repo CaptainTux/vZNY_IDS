@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #adadad;
+
+  button {
+    width: 5ch;
+    padding: 1ch;
+    background-color: transparent;
+    border: none;
+
+    a {
+      color: #888888;
+      text-decoration: none;
+
+      &:hover {
+        color: #ffffff;
+      }
+
+      &.selected {
+        color: #3382f6;
+      }
+    }
+  }
+
+
+}
+
+
